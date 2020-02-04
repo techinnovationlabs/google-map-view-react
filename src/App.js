@@ -3,7 +3,7 @@ import MapContainer from "./components/MapContainer";
 import { GoogleApiWrapper } from 'google-maps-react';
 
 const googleApiWrapper = GoogleApiWrapper({
-  apiKey: "AIzaSyDXHPmA0Jxx0Xj7P-HINX7Adzb5Bm-3u0k"
+  apiKey: "Insert your own Google API Key here"
 })(MapContainer);
 
 export default googleApiWrapper;
